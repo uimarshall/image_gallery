@@ -1,0 +1,32 @@
+{
+	"name": "image_gallery",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "node server/index.js",
+		"build": "next build",
+		"start": "next start"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/uimarshall/image_gallery.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/uimarshall/image_gallery/issues"
+	},
+	"homepage": "https://github.com/uimarshall/image_gallery#readme",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"express": "^4.16.4",
+		"isomorphic-unfetch": "^3.0.0",
+		"mongoose": "^5.5.4",
+		"next": "^8.1.0",
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6"
+	}
+}
